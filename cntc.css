@@ -1,0 +1,174 @@
+
+
+
+/* for mopbail */
+@media screen and (min-width:780px) {
+
+    
+
+.tall{
+    background-color: rgb(241, 226, 208);
+    border-radius: 10px;
+}
+.home a button{
+    font-size: 1.6rem ;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    color: wheat;
+    background-color: dimgrey;
+}
+
+.home{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.hd1{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.hd1 h2{
+
+    font-weight: bold;
+}
+
+.hd1 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+      
+}
+
+.frm{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.tes{
+
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#txtar{
+    outline: none;
+    margin-bottom: 70px;
+    height: 270px;
+    width: 700px;
+}
+
+.sbmt{
+    font-weight: bold;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    border-radius: 7px;
+    background-color: slategray;
+    margin-bottom: 100px;
+}
+    
+
+
+}
+
+
+
+
+
+@media screen and (max-width:780px) {
+    
+    
+
+.tall{
+    background-color: rgb(241, 226, 208);
+    border-radius: 10px;
+}
+.home a button{
+    font-size: 1.6rem ;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    color: wheat;
+    background-color: dimgrey;
+}
+
+.home{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+
+.dh{
+    text-align: center;
+    margin-top: 150px;
+
+}
+.dh h1{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+.hd1{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.hd1 h2{
+
+    font-weight: bold;
+}
+
+.hd1 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+      
+}
+
+.frm{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.tes{
+
+    width: 250px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+#txtar{
+    outline: none;
+    margin-bottom: 70px;
+    height: 220px;
+    width: 320px;
+}
+
+.sbmt{
+    font-weight: bold;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    border-radius: 7px;
+    background-color: slategray;
+    margin-bottom: 100px;
+}
+
+
+}

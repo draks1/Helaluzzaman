@@ -1,0 +1,208 @@
+
+
+
+/* for pc */
+@media screen and (min-width:780px) {
+    
+
+    .home a button{
+        font-size: 1.6rem ;
+        border-radius: 5px;
+        font-weight: bold;
+        font-style: italic;
+        color: wheat;
+        background-color: dimgrey;
+    }
+    
+    .home{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        height: 100px;
+    }
+    
+    .dh{
+        text-align: center;
+        margin-top: 150px;
+    
+    }
+    .dh h1{
+        font-size: 5rem;
+        font-family: monospace;
+        font-weight: bold;
+        font-style: italic;
+    
+    }
+    
+    .abt{
+        margin-top: 150px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+      
+    
+    
+    .pic{
+        width: 50%;
+    }
+    .pic img{
+         border: 2px solid rgb(85, 82, 82);
+         border-radius: 5px;
+    
+        height: 400px;
+        width: 400px;
+    }
+    
+    .pr{
+        width: 50%;
+        margin-top: 100px;
+    }
+    
+    .b{
+        font-size:2.5rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+            
+    }
+    
+    
+    .cari{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 100px;
+        background-color: gray;
+    }
+    
+    .edct{
+        width: 50%;
+        
+    }
+    
+    .hd{
+        text-align: center;
+    }
+    
+    .jobs{
+        width: 50%;
+         
+    }
+    
+    .crb{
+        font-size: 3rem ;
+        color: rgb(11, 230, 102);
+        border: none;
+        background-color: gray;
+        
+    }
+    .crh3{
+        font-style: italic;
+    }
+
+
+}
+
+
+
+/* for moabil */
+
+@media screen and (max-width:780px) {
+    .home a button{
+        font-size: 1.6rem ;
+        border-radius: 5px;
+        font-weight: bold;
+        font-style: italic;
+        color: wheat;
+        background-color: dimgrey;
+    }
+    
+    .home{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        height: 100px;
+    }
+    
+    .dh{
+        text-align: center;
+        margin-top: 150px;
+    
+    }
+    .dh h1{
+        font-size: 4rem;
+        font-family: monospace;
+        font-weight: bold;
+        font-style: italic;
+    
+    }
+    
+    .abt{
+        margin-top: 150px;
+        margin-bottom: 100px;
+        
+        
+    }
+      
+    .pic{
+        text-align: center;
+    }
+    
+    
+    .img{
+         border: 2px solid rgb(85, 82, 82);
+         border-radius: 5px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    .pr{
+        
+        margin-top: 50px;
+       
+    }
+    
+    .b{
+        font-size:2.5rem;
+        background-color: rgb(255, 255, 255);
+        border: none;
+            
+    }
+    
+    
+    .cari{
+        /* display: flex;
+        flex-direction: column; */
+        margin-bottom: 100px;
+        background-color: gray;
+    }
+    
+    .edct{
+        padding: 30px;
+        
+    }
+    
+    .hd{
+        text-align: center;
+    }
+    
+    
+    .jobs{
+        padding: 30px;
+    }
+    
+    .crb{
+        font-size: 3rem ;
+        color: rgb(11, 230, 102);
+        border: none;
+        background-color: gray;
+        
+    }
+    .crh3{
+        font-style: italic;
+        
+    }
+}

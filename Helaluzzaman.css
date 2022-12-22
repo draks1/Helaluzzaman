@@ -1,0 +1,180 @@
+
+
+
+/*For PC CSS  */
+
+
+@media screen and (min-width:780px){
+    
+
+
+
+
+
+    .body{
+        background-color: rgb(40, 38, 38);
+    }
+    
+    
+    
+    .head{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .pic{
+        color: azure;
+         margin-top: 40px;
+        width: 30%;
+    }
+    
+     .pic h4{
+    
+        font-style: italic;
+        font-family: monospace;
+        color: rgb(155, 151, 151);
+     }
+    
+    .pic img{
+        width:450px ;
+        height: 560px;
+        border-radius: 5px;
+    }
+    .navs{
+        margin-top: 70px;
+        margin-left: 90px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navs a{
+       
+         
+        border-radius: 6px;
+        min-width: 250px;
+        background-color: rgb(40, 38, 38);
+        text-align: center;
+        font-size:1.62rem;
+        font-weight: bold;
+        font-style: italic;
+        font-family: monospace;
+        color: rgb(120, 153, 159);
+        padding: 5px 10px;
+        margin-bottom: 30px;
+        text-decoration: none;
+    }
+    
+    .navs a:hover{
+        background-color: rgb(62, 58, 58);
+        color: aquamarine;
+    }
+    #para{
+        color: aliceblue;
+    }
+}
+
+
+
+
+/* For MOBAIL CSS */
+
+@media screen and (max-width:780px) {
+    
+
+
+
+    .body{
+        background-color: rgb(40, 38, 38);
+    }
+    
+
+    .hdng h1 {
+        margin-top: 50px;
+       font-size: 3rem;
+        color: rgb(5, 154, 2);
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+     }
+     .hdng h1::first-letter{
+        font-size: 5rem;
+        font-family: 'Pacifico', cursive;
+       font-style: italic;
+       color: rgb(255, 4, 192);
+     }
+    
+    
+    .head{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
+
+    
+    .pic{
+        color: azure;
+         margin-top: 40px 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+    
+  
+    
+    .pic img{
+        margin: 0 40px;
+        width:240px ;
+        height: 260px;
+        border-radius: 5px;
+    }
+    .navs{
+        margin-top: 40px;
+        margin-left: 100px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navs a{
+       
+         
+        border-radius: 6px;
+        max-width: 250px;
+        background-color: rgb(40, 38, 38);
+        text-align: center;
+        font-size:1.22rem;
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Lobster', cursive;
+        color: rgb(120, 153, 159);
+        padding: 5px 10px;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+    
+    .navs a:focus{
+        background-color: rgb(62, 58, 58);
+        color: aquamarine;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+    #para{
+        color: rgb(153, 185, 213);
+    }
+
+
+
+}
